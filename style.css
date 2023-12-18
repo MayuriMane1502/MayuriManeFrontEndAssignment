@@ -1,0 +1,73 @@
+.firstbox,
+.secondbox,
+.thirdbox,
+.fourthbox,
+.fifthbox {
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.mainbox {
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+.btnstyle {
+  background-color: #04aa6d;
+  width: 100%;
+  border: none;
+  height: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.sixthbox {
+  float: right;
+  color: #b6c4b6;
+  font-style: italic;
+}
+
+.overlaybtn {
+  padding: 0;
+}
+
+.labelstyle {
+  font-weight: lighter;
+}
+
+.dropbox td {
+  padding: 5px;
+}
+
+.fifthbox {
+  padding: 0;
+  height: 40px;
+}
+
+.fourthbox {
+  border: none;
+}
+
+.radiobtn {
+  accent-color: #04aa6d;
+}
+
+.hr-lines {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 1.6rem;
+  color: #04aa6d;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.hr-lines::before,
+.hr-lines::after {
+  content: "";
+  height: 1.5px;
+  background-color: #04aa6d;
+  display: block;
+}
